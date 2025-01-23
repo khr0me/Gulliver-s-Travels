@@ -7,21 +7,22 @@ defineProps<{
 <template>
   <div class="welcome">
     <h1 class="green">Welcome To Gulliver's WebSite!</h1>
-    <h3>Stefano Casonato, Lorenzo Poli - 4°A</h3>
   </div>
 </template>
 
 <style scoped>
+.welcome {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  max-width: fit-content;
+}
+
 h1 {
   font-weight: 500;
   font-size: 2.6rem;
   position: relative;
   top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
-  text-align: right;
+  text-align: center;
 }
 
 @media (min-width: 1024px) {

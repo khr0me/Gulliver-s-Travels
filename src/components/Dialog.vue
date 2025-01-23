@@ -5,10 +5,22 @@ defineProps<{
 </script> -->
 
 <template>
-    <div class="welcome">
-      <h1 class="green">Welcome To Gulliver's WebSite!</h1>
-      <h3>Stefano Casonato, Lorenzo Poli - 4°A</h3>
-    </div>
-  </template>
+  <div class="dialog">
+    <h3>Test per Dialog paragrafi</h3>
+  </div>
+</template>
 
-  
+<style scoped>
+.dialog {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  position: relative;
+  top: -10px;
+}
+</style>
