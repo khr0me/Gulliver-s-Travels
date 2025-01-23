@@ -1,17 +1,14 @@
-<script setup lang="ts">
+<!-- <script setup lang="ts">
 defineProps<{
-  msg: string
-}>()
-</script>
+  msg: string;
+}>();
+</script> -->
 
 <template>
   <div class="welcome">
-    <h1 class="green">{{ msg }}</h1>
-    <h3>Welcome To Gulliver's WebSite!</h3>
+    <h1 class="green">Welcome To Gulliver's WebSite!</h1>
+    <h3>Stefano Casonato, Lorenzo Poli - 4°A</h3>
   </div>
-
-
-
 </template>
 
 <style scoped>
@@ -24,11 +21,7 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
-}
-
-.greetings h1,
-.greetings h3 {
-  text-align: center;
+  text-align: right;
 }
 
 @media (min-width: 1024px) {

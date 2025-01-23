@@ -2,14 +2,13 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import WelcomeTo from "./components/WelcomeItem.vue";
 import GulliverTest from "./components/GulliverTest.vue";
+import Dialog from "./components/Dialog.vue";
 </script>
 
 <template>
-  <header>
-    <link rel="stylesheet" type="text/css" href="./assets/App.css" />
-  </header>
+  <link rel="stylesheet" type="text/css" href="./assets/App.css" />
 
-  <main>
-    <GulliverTest msg="Test" />
-  </main>
+  <GulliverTest />
+  <Dialog />
+  
 </template>
