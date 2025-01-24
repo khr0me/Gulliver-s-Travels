@@ -1,12 +1,6 @@
-<!-- <script setup lang="ts">
-defineProps<{
-  msg: string;
-}>();
-</script> -->
-
 <template>
   <div class="dialog">
-    <h3>Test per Dialog paragrafi</h3>
+    <slot></slot>
   </div>
 </template>
 
@@ -15,6 +9,7 @@ defineProps<{
   margin: 0 auto;
   margin-bottom: 4rem;
   max-width: 100%;
+  font-size: 1.23rem;
 }
 
 h1 {

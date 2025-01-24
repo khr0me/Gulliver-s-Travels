@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="welcome">
-    <h1 class="green">Welcome To Gulliver's WebSite!</h1>
+    <h1 class="green">Benvenuti nel sito di Gulliver!</h1>
   </div>
 </template>
 

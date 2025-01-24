@@ -23,6 +23,9 @@ footer {
   height: 5rem;
   text-align: center;
   padding: 1rem 0;
+  background-color: hsla(160, 100%, 37%, 0.2);
+  color: hsla(160, 100%, 37%, 1);
+
 }
 
 @media (hover: hover) {

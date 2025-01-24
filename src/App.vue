@@ -9,7 +9,8 @@ import Dialog from "./components/Dialog.vue";
   <link rel="stylesheet" type="text/css" href="./assets/App.css" />
 
   <GulliverTest />
-  <Dialog></Dialog>
+
+  <Dialog> Ciaooo </Dialog>
 
   <footer>
     <p>Stefano Casonato, Lorenzo Poli - 4°A</p>
