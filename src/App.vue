@@ -10,7 +10,7 @@ import Dialog from "./components/Dialog.vue";
 
   <GulliverTest />
 
-  <Dialog> Ciaooo </Dialog>
+  <Dialog> Gulliver è una persona davvero interessante... </Dialog>
 
   <footer>
     <p>Stefano Casonato, Lorenzo Poli - 4°A</p>

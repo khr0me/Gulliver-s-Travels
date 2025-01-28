@@ -10,6 +10,8 @@
   margin-bottom: 4rem;
   max-width: 100%;
   font-size: 1.23rem;
+  padding-left: 1rem;
+  border-left: 3px solid hsla(160, 100%, 37%, 1);
 }
 
 h1 {
