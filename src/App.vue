@@ -10,7 +10,13 @@ import Dialog from "./components/Dialog.vue";
 
   <GulliverTest />
 
-  <Dialog> Gulliver è una persona davvero interessante... </Dialog>
+  <main>
+    <Dialog>
+      I viaggi di gulliver, descritti da Stefano Casonato e Lorenzo Poli, della
+      classe 4°A dell'Istituto Vito Volterra, professoressa Piera Isgrò, San
+      Donà di Piave.
+    </Dialog>
+  </main>
 
   <footer>
     <p>Stefano Casonato, Lorenzo Poli - 4°A</p>
