@@ -1,9 +1,10 @@
 @import "./base.css";
 
-#app {
+#app,
+#forum {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0 2rem;
   font-weight: normal;
 }
 
@@ -15,33 +16,30 @@ a,
   padding: 3px;
 }
 
+main {
+  min-height: 60.9vh;
+}
+
 footer {
-  width: 100%;
-  left:0; /*  il left 0 serve per annullare lo spostamento in sinistra causato dal position fixed. */   
-  bottom: 0;
-  position: fixed;
+  width: 99.5vw; /* Larghezza completa rispetto alla viewport, se 100 si bugga e fa scrollare in largo */
   height: 5rem;
   text-align: center;
   padding: 1rem 0;
   background-color: rgb(1, 80, 53);
   color: hsla(160, 100%, 37%, 1);
-
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
 }
 
 @media (hover: hover) {
+  a {
+    display: inline-block;
+  }
+
   a:hover {
-    background-color: hsla(160, 100%, 37%, 0.2);
-  }
-}
-
-@media (min-width: 1920px) {
-  body {
-    display: flex;
-    margin-top: 2rem;
-  }
-
-  #app {
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    transform: scale(1.2);
+    color: hsla(160, 100%, 50%, 1);
   }
 }

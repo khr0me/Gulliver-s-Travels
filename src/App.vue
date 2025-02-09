@@ -1,19 +1,20 @@
 <script setup lang="ts">
-import HelloWorld from "./components/HelloWorld.vue";
-import WelcomeTo from "./components/WelcomeItem.vue";
 import GulliverTest from "./components/GulliverTest.vue";
 import Dialog from "./components/Dialog.vue";
+import Navbar from "./components/Navbar.vue";
 </script>
 
 <template>
   <link rel="stylesheet" type="text/css" href="./assets/App.css" />
 
-  <GulliverTest />
+  <Navbar />
+
+  <GulliverTest>Benvenuti nel sito di Gulliver!</GulliverTest>
 
   <main>
     <Dialog>
       I viaggi di gulliver, descritti da Stefano Casonato e Lorenzo Poli, della
-      classe 4°A dell'Istituto Vito Volterra, professoressa Piera Isgrò, San  
+      classe 4°A dell'Istituto Vito Volterra, professoressa Piera Isgrò, San
       Donà di Piave.
     </Dialog>
   </main>

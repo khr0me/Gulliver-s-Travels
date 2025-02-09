@@ -1,18 +1,12 @@
-<!-- <script setup lang="ts">
-defineProps<{
-  msg: string;
-}>();
-</script> -->
-
 <template>
   <div class="welcome">
-    <h1 class="green">Benvenuti nel sito di Gulliver!</h1>
+    <h1 class="green"><slot></slot></h1>
   </div>
 </template>
 
 <style scoped>
 .welcome {
-  margin: 0 auto;
+  margin: 8rem auto;
   margin-bottom: 4rem;
   max-width: fit-content;
 }
