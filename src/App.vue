@@ -13,7 +13,7 @@ import Dialog from "./components/Dialog.vue";
   <main>
     <Dialog>
       I viaggi di gulliver, descritti da Stefano Casonato e Lorenzo Poli, della
-      classe 4°A dell'Istituto Vito Volterra, professoressa Piera Isgrò, San
+      classe 4°A dell'Istituto Vito Volterra, professoressa Piera Isgrò, San  
       Donà di Piave.
     </Dialog>
   </main>
