@@ -6,8 +6,8 @@
 
 <style scoped>
 .welcome {
-  margin: 8rem auto;
-  margin-bottom: 4rem;
+  margin: 0 auto;
+  margin-top: 8rem;
   max-width: fit-content;
 }
 

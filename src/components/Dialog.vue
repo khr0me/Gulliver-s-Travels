@@ -6,8 +6,7 @@
 
 <style scoped>
 .dialog {
-  margin: 0 auto;
-  margin-bottom: 4rem;
+  margin: 4rem auto;
   max-width: 100%;
   font-size: 1.23rem;
   padding-left: 1rem;

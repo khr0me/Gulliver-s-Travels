@@ -17,6 +17,8 @@ import Navbar from "./components/Navbar.vue";
       classe 4°A dell'Istituto Vito Volterra, professoressa Piera Isgrò, San
       Donà di Piave.
     </Dialog>
+
+    <hr color="green-800">
   </main>
 
   <footer>
