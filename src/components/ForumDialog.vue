@@ -7,7 +7,7 @@ const props = defineProps<{ messages: { username: string; text: string }[] }>();
 
 <template>
   <div class="forum-dialog">
-    <h2>Messaggi</h2>
+    <h2>Ecco cosa si dice in giro!</h2>
     <Dialog v-for="(msg, index) in props.messages" :key="index">
       {{ msg.username }}: &nbsp; {{ msg.text }}
     </Dialog>

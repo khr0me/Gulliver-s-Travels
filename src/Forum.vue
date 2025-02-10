@@ -30,11 +30,14 @@ const addMessage = (newMessage: { username: string; text: string }) => {
       <h2>Regolamento del forum</h2>
       <p>
         Il forum è un luogo di discussione e confronto, dove è possibile
-        condividere opinioni e idee.
+        condividere opinioni e idee, preferibilmente scolastici.
       </p>
       <p>
         È importante rispettare le regole di buon comportamento e non offendere
         gli altri utenti.
+      </p>
+      <p>
+        Il forum è stato creato da Stefano Casonato e Lorenzo Poli, studenti della 4°A.
       </p>
     </Dialog>
 
