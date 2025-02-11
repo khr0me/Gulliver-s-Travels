@@ -20,7 +20,7 @@
   margin-top: 2rem;
   position: fixed;
   top: 0;
-  z-index: 1000;
+  z-index: 1;
 }
 
 nav {
