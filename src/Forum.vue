@@ -23,49 +23,50 @@ const addMessage = (newMessage: { username: string; text: string }) => {
 
   <Navbar />
 
-  <GulliverTest>Benvenuti nel forum di Gulliver!</GulliverTest>
+  <GulliverTest>Benvenuti! Di cosa volete parlare a riguardo di Gulliver?</GulliverTest>
 
   <main>
     <Dialog>
-      <h2>Regolamento del forum</h2>
+      <h3>REGOLAMENTO FORUM</h3>
       <p>
         Il forum è un luogo di discussione e confronto, dove è possibile
-        condividere opinioni e idee, preferibilmente scolastici.
+        condividere opinioni e idee (preferibilmente scolastici). <br/>
+        È importante avere un comprtamento adeguato, e non offendere altre
+        persone che vogliono prendere parte alla discussione
       </p>
-      <p>
-        È importante rispettare le regole di buon comportamento e non offendere
-        gli altri utenti.
-      </p>
-      <p>
-        Il forum è stato creato da Stefano Casonato e Lorenzo Poli, studenti della 4°A.
-      </p>
+
+      <p> Creato da: Casonato Stefano, Poli Lorenzo, 4°A. </p>
     </Dialog>
 
     <hr color="green-800" />
-
     <div class="insMsg">
-      <h2>Inserisci un messaggio...</h2>
-      <input
-        class="usr"
-        type="text"
-        placeholder="Username"
-        v-model="username"
+      <h2>A cosa stai pensando?</h2>
+      <input class="usr"
+             type="text"
+             maxlength=50
+             placeholder="Come ti chiami?"
+             require="required"
+             
+             v-model="username"
       />
-      <input
-        class="msg"
-        type="text"
-        placeholder="Messaggio"
-        v-model="message"
+      <input class="msg"
+             type="text"
+
+             maxlength=200
+             placeholder="Un tuo pensiero?"
+             require="required"
+             v-model="message"
       />
-      <button @click="sendMessage(username, message, addMessage)">Invia</button>
+
+      <button @click="sendMessage(username, message, addMessage)">Invia!</button>
     </div>
 
     <hr color="green-800" />
-
     <ForumDialog :messages="messages" />
   </main>
 
   <footer>
     <p>Stefano Casonato, Lorenzo Poli - 4°A</p>
   </footer>
+
 </template>
