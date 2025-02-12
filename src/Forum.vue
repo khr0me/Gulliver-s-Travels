@@ -1,21 +1,19 @@
 <script setup lang="ts">
-import GulliverTest from "./components/GulliverTest.vue";
-import Navbar from "./components/Navbar.vue";
-import Dialog from "./components/Dialog.vue";
-import ForumDialog from "./components/ForumDialog.vue";
-import { sendMessage } from "./assets/functions/forumButton.ts";
-import { ref } from "vue";
+  import Header from "./components/Header.vue";
+  import Navbar from "./components/Navbar.vue";
+  import Dialog from "./components/Dialog.vue";
+  import ForumDialog from "./components/ForumDialog.vue";
+  import { sendMessage } from "./assets/functions/forumButton.ts";
+  import { ref } from "vue";
 
-// Stato per i messaggi, l'username e il messaggio corrente
-const messages = ref<{ username: string; text: string }[]>([]);
-const username = ref("");
-const message = ref("");
+  const messages = ref<{ username: string; text: string }[]>([]);
+  const username = ref("");
+  const message = ref("");
 
-// Funzione per aggiungere un messaggio alla lista
-const addMessage = (newMessage: { username: string; text: string }) => {
-  messages.value.push(newMessage);
-  message.value = ""; // Pulisce l'input del messaggio
-};
+  const addMessage = (newMessage: { username: string; text: string }) => {
+    messages.value.push(newMessage);
+    message.value = "";
+  };
 </script>
 
 <template>
@@ -23,7 +21,7 @@ const addMessage = (newMessage: { username: string; text: string }) => {
 
   <Navbar />
 
-  <GulliverTest>Benvenuti! Di cosa volete parlare a riguardo di Gulliver?</GulliverTest>
+  <Header>Benvenuti! Di cosa volete parlare a riguardo di Gulliver?</Header>
 
   <main>
     <Dialog>
@@ -41,22 +39,8 @@ const addMessage = (newMessage: { username: string; text: string }) => {
     <hr color="green-800" />
     <div class="insMsg">
       <h2>A cosa stai pensando?</h2>
-      <input class="usr"
-             type="text"
-             maxlength=50
-             placeholder="Come ti chiami?"
-             require="required"
-             
-             v-model="username"
-      />
-      <input class="msg"
-             type="text"
-
-             maxlength=200
-             placeholder="Un tuo pensiero?"
-             require="required"
-             v-model="message"
-      />
+      <input class="usr" type="text" maxlength=50 placeholder="Come ti chiami?" require="required" v-model="username" />
+      <input class="msg" type="text" maxlength=200 placeholder="Un tuo pensiero?" require="required" v-model="message" />
 
       <button @click="sendMessage(username, message, addMessage)">Invia!</button>
     </div>

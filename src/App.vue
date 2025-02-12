@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import GulliverTest from "./components/GulliverTest.vue";
+import Header from "./components/Header.vue";
 import Dialog from "./components/Dialog.vue";
 import Navbar from "./components/Navbar.vue";
 </script>
@@ -9,7 +9,7 @@ import Navbar from "./components/Navbar.vue";
 
   <Navbar />
 
-  <GulliverTest>Home - Blog Viaggi di Gulliver </GulliverTest>
+  <Header>Home - Blog Viaggi di Gulliver </Header>
 
   <main>
     <Dialog> Pazzerella Eraclea Mare </Dialog>
