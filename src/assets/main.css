@@ -46,8 +46,10 @@ button:active {
   background-color: #222;
 }
 
-.insMsg {
-  margin: 2rem 0;
+.FormMSG {
+  display: flex;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .usr {

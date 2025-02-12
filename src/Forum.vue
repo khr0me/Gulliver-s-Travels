@@ -18,12 +18,11 @@
 
 <template>
   <link rel="stylesheet" type="text/css" href="./assets/App.css" />
-
   <Navbar />
-
+  
   <Header>Benvenuti! Di cosa volete parlare a riguardo di Gulliver?</Header>
-
   <main>
+
     <Dialog>
       <h3>REGOLAMENTO FORUM</h3>
       <p>
@@ -37,13 +36,15 @@
     </Dialog>
 
     <hr color="green-800" />
-    <div class="insMsg">
-      <h2>A cosa stai pensando?</h2>
-      <input class="usr" type="text" maxlength=50 placeholder="Come ti chiami?" require="required" v-model="username" />
-      <input class="msg" type="text" maxlength=200 placeholder="Un tuo pensiero?" require="required" v-model="message" />
-
-      <button @click="sendMessage(username, message, addMessage)">Invia!</button>
-    </div>
+    <form action="" method="POST"> 
+      <div class="FormMSG">
+        <h2>A cosa stai pensando?</h2>
+        <input class="usr" type="text" maxlength=50 placeholder="Come ti chiami?" require="required" v-model="username" />
+        <input class="msg" type="text" maxlength=200 placeholder="Un tuo pensiero?" require="required" v-model="message" />
+    
+        <button @click="sendMessage(username, message, addMessage)">Send!</button>   
+      </div>  
+    </form>
 
     <hr color="green-800" />
     <ForumDialog :messages="messages" />
