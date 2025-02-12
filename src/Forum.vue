@@ -66,7 +66,7 @@ const addMessage = (newMessage: { username: string; text: string }) => {
   </main>
 
   <footer>
-    <p>Stefano Casonato, Lorenzo Poli - 4°A</p>
+    <p>Casonato Stefano, Poli Lorenzo, 4°A</p>
+    <p>2025</p>
   </footer>
-
 </template>
