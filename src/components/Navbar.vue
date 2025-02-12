@@ -47,10 +47,13 @@ nav {
   display: flex;
 }
 
-a:default > h1 {
+a:default h1 {
   padding-bottom: 2rem;
-  margin-left: 1rem;
   font-size: 1.5rem;
+}
+
+a {
+  padding-left: 1rem;
 }
 
 ul {

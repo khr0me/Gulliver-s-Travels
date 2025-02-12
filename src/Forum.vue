@@ -55,6 +55,7 @@
     </Dialog>
 
     <hr color="green-800" />
+<<<<<<< HEAD
     <div class="FormMSG">
       <form @submit.prevent="add_message({ username: username, text: message, timestamp: new Date().toISOString() })"> 
           <h2>A cosa stai pensando?</h2> <br/>
@@ -63,6 +64,30 @@
       
           <button type="submit">Send!</button>   
       </form>
+=======
+    <div class="insMsg">
+      <h2>A cosa stai pensando?</h2>
+      <input
+        class="usr"
+        type="text"
+        maxlength="50"
+        placeholder="Come ti chiami?"
+        require="required"
+        v-model="username"
+      />
+      <input
+        class="msg"
+        type="text"
+        maxlength="200"
+        placeholder="Un tuo pensiero?"
+        require="required"
+        v-model="message"
+      />
+
+      <button @click="sendMessage(username, message, addMessage)">
+        Invia!
+      </button>
+>>>>>>> 2fe312d5fd1ac57eee194bc203724db40c1b24fd
     </div>
 
     <hr color="green-800" />
