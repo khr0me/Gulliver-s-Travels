@@ -2,7 +2,7 @@
 
 #app,
 #forum {
-  max-width: 1920px;
+  max-width: 1240px;
   margin: 0 auto;
   padding: 0 2rem;
   font-weight: normal;
@@ -54,7 +54,7 @@ button:active {
   width: 15%;
 }
 
-footer {
+footer, .navbar {
   width: 99.5vw; /* Larghezza completa rispetto alla viewport, se 100 si bugga e fa scrollare in largo */
   height: 5rem;
   text-align: center;

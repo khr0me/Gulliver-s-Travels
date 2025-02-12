@@ -1,7 +1,9 @@
 <template>
   <div class="navbar">
     <nav>
-      <h1>Gulliver's Travels</h1>
+      <a href="/">
+        <h1>Gulliver's Travels</h1>
+      </a>
       <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/forum">Forum</a></li>
@@ -21,14 +23,15 @@
   position: fixed;
   top: 0;
   z-index: 1;
+  height: 4.5rem;
 }
 
 nav {
   display: flex;
-  align-items: center;
 }
 
-h1 {
+a:default > h1 {
+  padding-bottom: 2rem;
   margin-left: 1rem;
   font-size: 1.5rem;
 }
