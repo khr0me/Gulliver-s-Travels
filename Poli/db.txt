@@ -1,0 +1,4 @@
+--- INFO ---
+
+root password: capodos99
+TCP port: 8086
