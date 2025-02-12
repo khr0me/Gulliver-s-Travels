@@ -39,7 +39,6 @@ a {
   padding-left: 1rem;
 }
 
-
 ul {
   display: flex;
   gap: 2rem;
