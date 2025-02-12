@@ -42,17 +42,6 @@ const addMessage = (newMessage: {
     </Dialog>
 
     <hr color="green-800" />
-<<<<<<< HEAD
-    <form action="" method="POST"> 
-      <div class="FormMSG">
-        <h2>A cosa stai pensando?</h2>
-        <input class="usr" type="text" maxlength=50 placeholder="Come ti chiami?" require="required" v-model="username" />
-        <input class="msg" type="text" maxlength=200 placeholder="Un tuo pensiero?" require="required" v-model="message" />
-    
-        <button @click="sendMessage(username, message, addMessage)">Send!</button>   
-      </div>  
-    </form>
-=======
     <div class="insMsg">
       <h2>A cosa stai pensando?</h2>
       <input
@@ -76,7 +65,6 @@ const addMessage = (newMessage: {
         Invia!
       </button>
     </div>
->>>>>>> c2c573110bb3cfae06077b8be9680e32a0c6307c
 
     <hr color="green-800" />
     <ForumDialog :messages="messages" />

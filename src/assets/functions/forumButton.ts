@@ -5,11 +5,6 @@ export function sendMessage(
 ): void {
     if (username.trim() === "" || message.trim() === "") return;
 
-<<<<<<< HEAD
-    addMessage({ username, text: message }); // Aggiunge il messaggio alla lista
-    console.log("Send by: ", username, ":", message);
-}
-=======
     const now = new Date();
     const options: Intl.DateTimeFormatOptions = { 
         day: "2-digit", month: "2-digit", year: "numeric", 
@@ -19,4 +14,3 @@ export function sendMessage(
 
     addMessage({ username, text: message, timestamp }); // Aggiunge il timestamp formattato
 }
->>>>>>> c2c573110bb3cfae06077b8be9680e32a0c6307c
