@@ -21,6 +21,7 @@ a,
 }
 
 input,
+textarea,
 button {
   width: 50%;
   height: 100%;
@@ -31,6 +32,10 @@ button {
   border-radius: 0.3rem;
   margin-bottom: 10px;
   display: block;
+}
+
+textarea {
+  resize: none;
 }
 
 input:focus {
@@ -47,8 +52,6 @@ button:active {
 }
 
 .FormMSG {
-  display: flex;
-  width: 1240px;
   margin: 0 auto;
 }
 

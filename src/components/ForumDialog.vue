@@ -1,10 +1,11 @@
 <script setup lang="ts">
-import { defineProps } from "vue";
-import Dialog from "./Dialog.vue";
+  import { defineProps } from "vue";
+  import Dialog from "./Dialog.vue";
 
-const props = defineProps<{
-  messages: { username: string; text: string; timestamp: string }[];
-}>();
+  const props = defineProps<{
+    messages: { username: string; text: string; timestamp: string }[]; 
+  }>();
+  
 </script>
 
 <template>
@@ -12,12 +13,11 @@ const props = defineProps<{
     <h2>Ecco cosa si dice in giro!</h2>
     <Dialog v-for="(msg, index) in props.messages" :key="index">
       <strong>{{ msg.username }}</strong>: &nbsp;
-      {{ msg.text }}
+              {{ msg.text }}
       <p>
-        {{ msg.timestamp }}
+              {{ msg.timestamp }}
       </p>
     </Dialog>
-    <h4> Al momento non ci sono altri messaggi &nbsp; :(</h4>
   </div>
 </template>
 
@@ -31,9 +31,7 @@ const props = defineProps<{
 .dialog {
   margin: 2rem 0;
 }
-
 h4 {
   margin: 2.2rem 0;
-  /* font-size: 1.5rem;  */
 }
 </style>

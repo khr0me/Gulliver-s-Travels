@@ -1,29 +1,46 @@
 <template>
-  <div class="navbar">
-    <nav>
-      <a href="/">
-        <h1>Gulliver's Travels</h1>
-      </a>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/forum">Forum</a></li>
-      </ul>
-    </nav>
+  <div class="above">
+
+    <div class="navbar">
+      <nav>
+        <a href="/"> <h1>Gulliver's Travels</h1> </a>
+        <ul>
+          <li> <a href="/">Home</a> </li>
+          <li> <a href="/forum">Forum</a> </li>
+        </ul>
+      </nav>
+    </div>
+  
   </div>
 </template>
 
+<script setup land="ts">
+
+</script> 
+
 <style scoped>
+.above {
+  background-color: #181818;
+  position: fixed;
+  width: 100%;
+  height: 4.5rem;
+  top: 0;
+  z-index: 8;     /* Just Under the .navbar */
+}
 .navbar {
   background-color: #333;
   color: hsla(160, 100%, 37%, 1);
+
+  border-radius: 1rem;  
   padding: 1rem;
-  border-radius: 1rem;
   width: calc(100% - 3rem);
+  height: 4.5rem;
+
   margin-top: 2rem;
   position: fixed;
+  
+  z-index: 10;
   top: 0;
-  z-index: 1;
-  height: 4.5rem;
 }
 
 nav {

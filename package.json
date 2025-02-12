@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@vercel/analytics": "^1.4.1",
+    "axios": "^1.7.9",
     "vue": "^3.5.13",
     "yarn": "^1.22.22"
   },
@@ -27,5 +28,18 @@
     "vite": "^6.0.11",
     "vite-plugin-vue-devtools": "^7.7.0",
     "vue-tsc": "^2.2.0"
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khr0me/Gulliver-s-Travels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khr0me/Gulliver-s-Travels/issues"
+  },
+  "homepage": "https://github.com/khr0me/Gulliver-s-Travels#readme",
+  "description": ""
 }

@@ -14,7 +14,7 @@ import Navbar from "./components/Navbar.vue";
   <hr color="green-800" />
 
   <main>
-    <Dialog>
+    <Dialog id="intro">
       <i>
         &lt;&lt; Fin dai primi decenni del Settecento, si diffuse in tutta
         Europa l’esigenza di superare una cultura ormai recepita come retorica e
@@ -49,7 +49,7 @@ import Navbar from "./components/Navbar.vue";
       quindi, entrare il nostro primo ospite… Immanuel Kant
     </Dialog>
     <Dialog>
-      Kant… ci parli un p’ò di lei “Nasco in Prussia, più precisamente a
+      <h1> Kant… ci parli un p’ò di lei </h1> “Nasco in Prussia, più precisamente a
       Konigsberg nel 1724, da una famiglia di modeste origini. Fu proprio grazie
       ai miei genitori che ricevetti un'educazione “etico-religiosa”. Dopo
       essermi laureato inizia a guadagnare primi spicci come precettore
@@ -59,8 +59,8 @@ import Navbar from "./components/Navbar.vue";
       che inizia a scrivere tra le mie più importanti opere.
     </Dialog>
     <Dialog>
-      Nel “coraggio del sapere”, da lei pubblicato ormai nel 1784, dai una tua
-      interpretazione ai precetti dell’Illuminismo. Perchè questo titolo?&nbsp;
+      <h3> Nel “coraggio del sapere”, da lei pubblicato ormai nel 1784, dai una tua
+      interpretazione ai precetti dell’Illuminismo. Perchè questo titolo? </h3> <br />
       “Citando me stesso <i>&lt;&lt;L’illuminismo è l’uscita da uno stato di
       minorità che egli deve imputare a se stesso&gt;&gt;.</i> è solo grazie
       all’illuminismo che l’umanità si libera dai condizionamenti e dalla
@@ -72,8 +72,9 @@ import Navbar from "./components/Navbar.vue";
       intelligenza! “
     </Dialog>
     <Dialog>
-      Sappiamo sei un estimatore de “I Viaggi di Gulliver”, c’è qualcosa che ti
-      ha colpito in particolare? “Sì, ho sempre avuto una passione per il genere
+      <h3> Sappiamo sei un estimatore de “I Viaggi di Gulliver”, c’è qualcosa che ti
+      ha colpito in particolare? </h3><br />
+      Si ho sempre avuto una passione per il genere
       fantastico e sono un grande ammiratore delle opere di Swift. È davvero
       difficile per me scegliere un tema tra i tanti che emergono nella sua
       opera, ma se dovessi centrarne uno in particolare, parlerei del coraggio e
@@ -94,8 +95,9 @@ import Navbar from "./components/Navbar.vue";
       mondo”
     </Dialog>
     <Dialog>
-      Grazie per il suo tempo signor Kant. C’è qualcosa che vuole dire per
-      chiudere questa intervista? “Grazie a voi, prima di tutto. Sono felice di
+      <h3> Grazie per il suo tempo signor Kant. C’è qualcosa che vuole dire per
+      chiudere questa intervista? </h3> <br />
+      “Grazie a voi, prima di tutto. Sono felice di
       avervi aiutato nel vostro… Come si chiama? Blog? Scusi, è che non sono
       molto informato su queste nuove tecnologie, penso che i pamphlet rimangano
       ancora la principale fonte di informazione per il terzo stato, ma sarò di
@@ -117,8 +119,8 @@ import Navbar from "./components/Navbar.vue";
       secondo ospite: Voltaire
     </Dialog>
     <Dialog>
-      Voltaire… Non era morto? E perché questo pseudonimo? “Questa è
-      un'intervista oppure un interrogatorio? Che sgarbato… Si, sono morto nel
+      <h1> Voltaire… Non era morto? E perché questo pseudonimo? </h1>
+      “Questa è un'intervista oppure un interrogatorio? Che sgarbato… Si, sono morto nel
       1778, più precisamente il 30 maggio, ma il mio compito come Illuminista
       non è di certo terminato, per questo sono qui. Per quanto riguarda il mio
       pseudonimo… è l’anagramma, in latino, del mio cognome, con cui ero
@@ -130,8 +132,8 @@ import Navbar from "./components/Navbar.vue";
       le mie scuse, ma c’è altro a cui devo dedicarmi in questo momento….”
     </Dialog>
     <Dialog>
-      Voltaire! Ci scusi per l’ignoranza…. ci parli un po di lei “...Accetto le
-      sue scuse e, per la cronaca, il mio vero nome è Francois-Marie Arouet.
+      <h3> Voltaire! Ci scusi per l’ignoranza…. ci parli un po di lei </h3> <br/>  
+      “...Accetto le sue scuse e, per la cronaca, il mio vero nome è Francois-Marie Arouet.
       Nasco a Parigi nel 1694, da una famiglia borghese. Ricevetti un'educazione
       umanistica presso il prestigioso collegio parigino Lois-Le-Grand, tenuto
       dai Gesuiti; ma mi feci conoscere dopo la pubblicazione della mio primo
@@ -152,8 +154,8 @@ import Navbar from "./components/Navbar.vue";
       della mia morte“
     </Dialog>
     <Dialog>
-      Parlando di una delle sue opere più importanti, il “Tratto della
-      tolleranza” del 1763, che messaggio vuole trasmettere al popolo francese?
+      <h3> Parlando di una delle sue opere più importanti, il “Tratto della
+      tolleranza” del 1763, che messaggio vuole trasmettere al popolo francese? </h3> <br /> 
       “L’opera tratta temi a me cari: la tolleranza e la lotta contro il
       fanatismo religioso. Essa nasce infatti dalla ingiusta condanna a morte,
       comminata nel 1762, da giudici cattolici, ai danni di un commerciante
@@ -167,8 +169,8 @@ import Navbar from "./components/Navbar.vue";
       società civile &gt;&gt;</i>”.
     </Dialog>
     <Dialog>
-      Sappiamo che è un estimatore de “I Viaggi di Gulliver”. questa sua vita
-      errante ha fatto sì che si rispecchiasse nell'opera? “Di sicuro ciò ha
+      <h3> Sappiamo che è un estimatore de “I Viaggi di Gulliver”. questa sua vita
+        errante ha fatto sì che si rispecchiasse nell'opera?  </h3> <br /> “Di sicuro ciò ha
       favorito. Ho sempre amato il genere fantastico e sono sempre stato un
       grande estimatore delle opere di Swift. Ciò che mi ha colpito maggiormente
       è stata l’isola degli Houyhnhnm, “Cavalli” i quali loro concetti
@@ -192,9 +194,9 @@ import Navbar from "./components/Navbar.vue";
       convivenza e della tolleranza.”
     </Dialog>
     <Dialog>
-      Grazie Signor Voltaire, C’è qualcosa che vuole dire per chiudere questa
-      intervista? “Grazie a lei per l’interesse. Spero che questo mio intervento
-      possa avervi aiutato nella vostra opera volta all’unione ed informazione
+      <h3> Grazie Signor Voltaire, C’è qualcosa che vuole dire per chiudere questa
+      intervista? </h3> <br /> “Grazie a lei per l’interesse. Spero che questo mio 
+      intervento possa avervi aiutato nella vostra opera volta all’unione ed informazione
       del popolo. Cosa scusi? Tutto ciò verrà pubblicato in un Blog? Guardi, mi
       scusi per l’ignoranza ma non so proprio cosa sia. Ringrazio calorosamente
       anche voi, lettori, così interessati a riguardo della mia opinione, e vi
@@ -223,3 +225,9 @@ import Navbar from "./components/Navbar.vue";
     <p>2025</p>
   </footer>
 </template>
+
+<style scoped>
+  #intro {
+    text-align: center;
+  }
+</style>
