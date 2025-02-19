@@ -6,7 +6,7 @@
         <a href="/"> <h1>Gulliver's Travels</h1> </a>
         <ul>
           <li> <a href="/">Home</a> </li>
-          <li> <a href="/forum">Forum</a> </li>
+          <li> <a href="./forum">Forum</a> </li>
         </ul>
       </nav>
     </div>
